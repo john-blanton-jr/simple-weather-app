@@ -1,0 +1,16 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px;
+}
+.bg {
+	background-image: url('./assets/day.gif');
+	color: #000;
+	height: 100vh;
+	background-size: cover;
+	background-position: bottom;
+}
+.bg.night {
+	background-image: url('./assets/night.gif');
+}
